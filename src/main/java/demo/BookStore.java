@@ -23,5 +23,9 @@ public class BookStore {
 
         Basket basket = new Basket(customer);
         basket.addBooks(books);
+
+        //calculate max discount
+        Discount discount = new Discount();
+        int maxDiscount = discount.calculate(basket);
     }
 }
