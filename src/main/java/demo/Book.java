@@ -4,7 +4,7 @@ public class Book {
     private int id;
     private String name;
     private int price;
-    private int stock;
+    private Stock stock;
 
     public Book() {
     }
@@ -33,11 +33,11 @@ public class Book {
         this.price = price;
     }
 
-    public int getStock() {
+    public Stock getStock() {
         return stock;
     }
 
-    public void setStock(int stock) {
+    public void setStock(Stock stock) {
         this.stock = stock;
     }
 }
